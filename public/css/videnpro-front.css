@@ -1,0 +1,356 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+@media only screen and (max-width: 768px) { .vimeo-iframe { width:638px; height:358px; margin-top:0; z-index: 200;} }
+
+/* logo image */
+.videnpro-logo-image {
+	position: absolute;
+	max-width: 100%;
+	max-height: auto;
+	width: 20%;
+	height: auto;
+	box-sizing: content-box;
+	margin: 0;
+}
+
+#frame {
+	position: absolute;
+}
+ 
+/* hide post content for cta */
+#cta-post-content1 {
+	display: none;
+}
+ 
+.cta-display p {
+	
+	margin: 0 !important;
+	
+}
+
+
+
+.cta-display p a {
+	text-decoration: none !important;
+}
+
+.cta-display img {
+	max-width: 100%;
+}
+ 
+.bootstrap-wrapper table.table tbody tr td,
+.bootstrap-wrapper table.table tbody tr th {
+	width: 33%;
+	vertical-align: middle;
+}
+ 
+div.modal-dialog {
+	overflow-y: initial !important
+}
+ 
+div.modal-body {
+	height: 400px;
+	overflow-y: auto;
+}
+
+#mockup_preview_list li {
+	list-style-type: none;	
+	padding: 10px;
+	border: none;
+}
+
+#mockup_preview_list li img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	padding: 20px;
+}
+
+/* youtube preview */
+#youtube-preview {
+	overflow: hidden;
+}
+
+.play-button-pulse {
+	/*display:block;*/
+	text-align:center;
+	vertical-align:middle;
+	display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+justify-content: center; /* align horizontal */
+-webkit-justify-content: center; /* align horizontal */
+-ms-justify-content: center; /* align horizontal */
+	font-size: 35px;
+	width: 100%;
+	height: 100%;
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+}
+/*
+.play-button-pulse i.fa.fa-play-circle {
+	cursor: pointer;
+}
+*/
+/* cta preview */
+
+img#videnpro_youtube_thumbnail_image {
+	
+	
+  width: 100%;
+	
+}
+
+.yt-iframe-video {
+	position: absolute;
+	
+	max-width: 100%;
+	max-height: 100%;
+	z-index: -999;
+}
+
+
+
+.yt-thumbnail_dslr {
+	position: relative;
+	display:flex;
+	background-size: cover !important;
+	overflow:hidden;
+	top:35%;
+	left:15%;
+	width:48%;
+	height:33%;
+	-webkit-border-radius: 2px;
+	  -moz-border-radius: 2px;
+	  border-radius: 2px;
+	z-index: 9999 !important;
+}
+
+
+.yt-thumbnail_htchor {
+	position: relative;
+	display:flex;
+	background-size: cover !important;    
+    overflow:hidden;
+	top:4.58%;
+	left:10.5%;
+	width:78.9%;
+	height:45.2%;	
+}
+
+.yt-thumbnail_cd {
+	position: relative;
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:1.1%;
+	left:1.8%;
+	width:96.5%;
+	height:64.5%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_cd_F {
+	position: relative;	
+	display:flex;
+	background-size: cover !important;
+    overflow:hidden;
+	top:1.1%;
+	left:1.8%;
+	width:96.5%;
+	height:64.5%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_imac {
+	position: relative;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:1.1%;
+	left:1.8%;
+	width:96.5%;
+	height:58.5%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_ipadhor {
+	position: relative;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:1.1%;
+	left:1.8%;
+	width:88.5%;
+	height:68.5%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;	
+}
+
+.yt-thumbnail_iphonehor {
+	position: relative;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:1.5%;
+	left:10.8%;
+	width:76.5%;
+	height:45.4%;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+}
+
+.yt-thumbnail_iwatchg {
+	position: relative;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:10.5%;
+	left:27.8%;
+	width:47.5%;
+	height:42.5%;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;	
+}
+
+.yt-thumbnail_iwatchs {
+	position: relative;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:10.5%;
+	left:27.8%;
+	width:47.5%;
+	height:42.5%;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;	
+}
+
+.yt-thumbnail_iwatchw {
+	position: relative;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:15.5%;
+	left:26.5%;
+	width:50.5%;
+	height:45.5%;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;	
+}
+
+.yt-thumbnail_mba {
+	position: relative;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:4%;
+	left:13.8%;
+	width:72.85%;
+	height:45.8%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+/* media queries for pictures in cta */
+
+@media only screen and
+(min-width:768px) and
+(max-width:1024px){
+
+	.cta-display p span{
+		
+	}
+	
+	.cta-display p {
+		
+	}
+
+	.cta-display img {
+		height: 80%;
+		width: auto;
+		
+	}
+	
+	.cta-display h1, h2, h3, h4, h5 {
+		
+	}
+	
+}
+
+@media only screen and
+(min-width:320px) and
+(max-width:768px){
+
+	.cta-display p span{
+		
+	}
+	
+	.cta-display p {
+		
+	}
+
+	.cta-display img {
+		height: 75%;
+		width: auto;
+		
+	}
+	
+	.cta-display h1, h2, h3, h4, h5 {
+		
+	}
+	
+}
+
+@media only screen and
+(max-width:320px) {
+
+	.cta-display p span{
+		
+	}
+	
+	.cta-display p {
+		line-height: 1 !important;
+		
+	}
+
+	.cta-display img {
+		height: 75%;
+		width: auto;
+		
+	}
+	
+	.cta-display h1, h2, h3, h4, h5 {
+		
+	}
+	
+}
+
+
+/***********************

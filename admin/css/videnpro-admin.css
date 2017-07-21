@@ -1,0 +1,930 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+/* mockup choice */
+div#mockup_preview_list li img {
+	border: 1px solid grey;
+}
+ 
+/* logo image */
+.videnpro-logo-image {
+	display: none;
+	position: absolute;
+	max-width: 100%;
+	max-height: auto;
+	width: 20%;
+	height: auto;
+	box-sizing: content-box;
+	margin: 0;
+}
+
+td input#cta-delay-10-div-to-show {
+	width: 200px;
+}
+
+table.table.table-borderless tbody tr.logo-image-link-container td input#videnpro_logo_image_link {
+	width: 300px;
+}
+ 
+#cta-delay-post1, #cta-delay-post2, #cta-delay-post3, #cta-delay-post4, #cta-delay-post5, #cta-delay-post6,
+#cta-delay-post7, #cta-delay-post8, #cta-delay-post9, #cta-delay-post10 {
+	width: 45px;
+}
+
+#cta-duration1, #cta-duration2 {
+	width: 45px;
+}
+
+#cta-effect1, #cta-effect2 {
+	width: 45px;
+}
+ 
+.cta-display p {
+	line-height: 1.5;
+	margin: 0;
+}
+
+/* wp editor */
+.mce-edit-area {
+	background: grey !important;
+}
+ 
+#custom-publish-button-beginning {
+	margin-bottom: 30px;
+}
+
+.bootstrap-wrapper table.table tbody tr td,
+.bootstrap-wrapper table.table tbody tr th {
+	width: 33%;
+	vertical-align: middle;
+}
+
+.bootstrap-wrapper table#videnpro-cta-show-settings-table.table.table-borderless tbody tr td,
+.bootstrap-wrapper table#videnpro-cta-show-settings-table.table.table-borderless tbody tr th {
+	width: 20%;
+	vertical-align: middle;
+}
+
+td.switcher {
+	text-align: center;
+}
+
+input#videnpro_secure_url {
+    width: 200px;
+    margin-left:10px;
+}
+
+#videnpro-cta-show-settings-table {
+	background-color: #f4f4f4;
+}
+
+.bootstrap-wrapper table#videnpro-cta-show-settings-table.table.table-borderless tbody tr td.cta-spinner input#cta-link-url,
+.bootstrap-wrapper table#videnpro-cta-show-settings-table.table.table-borderless tbody tr td.cta-spinner input#cta-filename {
+	width: 200px;
+}
+
+#videnpro_self_video_button.btn.btn-primary,
+#videnpro_branding_editor.postbox div.inside div.inside div.tw-bs div.bootstrap-wrapper table.table.table-borderless tbody tr td button.btn.btn-primary {
+	min-width: 100px;
+}
+
+.btn.btn-primary.active,
+#videnpro_thumbnail_delete_button.btn.btn-danger, #videnpro_end_thumbnail_delete_button.btn.btn-danger,
+#videnpro_logo_thumbnail_delete_button.btn.btn-danger { 
+	background-color : red;
+}
+
+.btn.btn-primary.active:hover { 
+	background-color : red;
+}
+/* display promblems with bootstap switch; use bootstrap toggle instead
+.bootstrap-switch-container span.bootstrap-switch-handle-on.bootstrap-switch-primary {
+	background-color : red;
+	border: 1px solid black;
+}
+
+.bootstrap-switch-handle-off.bootstrap-switch-default {
+	color: white !important;
+	background-color: #337AB7 !important;
+	border: 1px solid black;
+}
+*/
+
+.toggle.btn.btn-default.off div.toggle-group label.btn.btn-default.active.toggle-off {
+	color: white;
+	background-color : red;
+	border: 1px solid #505050;
+}
+
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none !important;
+}
+
+.table-borderless tbody tr th,
+.table.videnpro-cta-show-settings tbody tr th {
+	border-right:  1px solid #eee !important;
+	border-bottom:  1px solid #eee !important;
+}
+
+.table-borderless tbody tr,
+.table.videnpro-cta-show-settings tbody tr  {
+	border-bottom:  1px solid #eee !important;
+}
+
+.bootstrap-wrapper table.table.table-borderless tbody tr td fieldset label {
+	vertical-align: bottom;
+	padding: 5px;
+}
+
+
+.bootstrap-wrapper table.table.table-borderless tbody tr td fieldset label input {
+	margin: 5px;
+}
+ 
+div.modal-dialog {
+	overflow-y: initial !important
+}
+
+div#MockupPreviewModal.modal.fade.in div.modal-dialog div.modal-body {	
+	height: 400px;
+	overflow-y: auto;
+}
+
+div#CTASettingsModal.modal.fade.in div.modal-dialog div.modal-body {
+	height: 600px;
+	overflow-y: auto;
+}
+
+div#YouTubePreviewModal div.modal-body {
+	height: 500px !important;
+	overflow-y: auto;
+}
+
+.bootstrap-wrapper table.table.table-borderless tbody tr td input#videnpro_player_conrols {
+	margin-bottom: 10px;
+}
+
+/* cta preview */
+
+/* closing x */
+#cta-preview div#cta-dimensions i.fa.fa-times {
+	display: block;	
+	cursor: pointer;
+	z-index: 9999 !important;
+	position: absolute;
+}
+
+#qt_videnpro_cta_content_toolbar.quicktags-toolbar {
+	display: none;
+}
+
+#cta-preview {
+	overflow: hidden;
+	display: flex;
+}
+
+.cta-display {
+
+}
+
+table.cta-table {
+	margin-top: 20px;
+}
+
+.cta-width.col-md-4, .cta-size.col-md-4, .cta-height.col-md-4 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.cta-spinner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cta-width-spinner, #cta-height-spinner, #cta-margin-top-spinner, #cta-margin-left-spinner,
+#cta-border-spinner, #cta-opacity-spinner, #cta-close-button-color, #cta-close-button-spinner,
+#cta-delay-spinner1, #cta-delay-spinner2, #cta-delay-spinner3, #cta-delay-spinner4, #cta-delay-spinner5,
+#cta-delay-spinner6, #cta-delay-spinner7, #cta-delay-spinner8, #cta-delay-spinner9, #cta-duration-spinner1,
+#cta-duration-spinner2, #cta-duration-spinner3, #cta-duration-spinner4, #cta-duration-spinner5, #cta-duration-spinner6,
+#cta-duration-spinner7, #cta-duration-spinner8, #cta-duration-spinner9, #cta-duration-spinner10,
+#cta-delay-spinner10, #cta-border-radius-spinner, #cta-play-button-spinner, #cta-effect-spinner, #video-border-spinner, #video-thumbnail-buffer-spinner,
+#video-width-trim-spinner, #video-height-trim-spinner, #video-left-trim-spinner, #video-top-trim-spinner  {
+	width: 50px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 4px;
+}
+
+label#videnpro_label_cta_effect_none.btn.btn-primary, label#videnpro_label_cta_effect_fade.btn.btn-primary,
+label#videnpro_label_cta_effect_bounce.btn.btn-primary, label#videnpro_label_cta_effect_fold.btn.btn-primary,
+label#videnpro_label_cta_effect_clip.btn.btn-primary, label#videnpro_label_cta_effect_slide.btn.btn-primary {
+	padding:3px;
+}
+
+#cta-dimensions {
+	position: relative;
+	overflow: hidden;
+	border: 0px solid black;	
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+#cta-dimensions a:hover {
+	text-decoration: none;
+}
+
+#cta-content {
+	opacity: 1 !important;
+	z-index: 1;
+}
+
+html.wp-toolbar body.wp-admin.wp-core-ui.js.post-php.auto-fold.admin-bar.post-type-branding.branch-4-5.version-4-5-2.admin-color-fresh.locale-de-de.customize-support.svg div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap form#post div#poststuff div#post-body.metabox-holder.columns-2 div#postbox-container-2.postbox-container div#normal-sortables.meta-box-sortables.ui-sortable div#videnpro_branding_editor.postbox div.inside div.inside div.tw-bs div.bootstrap-wrapper table#videnpro-cta-show-settings-table.table.table-borderless tbody tr td div#cta-preview div#cta-dimensions div#cta-dimensions-test-frame h1 {
+	font-size: 48px;
+}
+
+.ui-state-default .ui-icon {
+	background-image: url("img/ui-icons_888888_256x240.png") !important;
+}
+
+/***************/
+
+#mockup_preview_list li {
+	list-style-type: none;	
+	padding: 10px;
+	border: none;
+}
+
+#mockup_preview_list li img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	padding: 20px;
+}
+
+/* youtube preview */
+#youtube-preview {
+	overflow: hidden;
+	display: block;
+}
+
+.play-button-pulse,
+.play-button-pulse-self,
+.play-button-pulse-vimeo {
+	/*display:block;*/
+	text-align:center;
+	vertical-align:middle;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	justify-content: center; /* align horizontal */
+	-webkit-justify-content: center; /* align horizontal */
+	-ms-justify-content: center; /* align horizontal */
+	font-size: 35px;
+	width: 100%;
+	height: 100%;
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+}
+
+.play-button-pulse i.fa.fa-play-circle ,
+.play-button-pulse-self i.fa.fa-play-circle
+.play-button-pulse-vimeo i.fa.fa-play-circle{
+	cursor: pointer;
+}
+
+
+.yt-mockub-image img#videnpro_youtube_mockup_preview_image {
+	position: relative;
+	overflow: hidden;
+}
+
+img#videnpro_youtube_thumbnail_image {
+	
+	
+  width: 100%;
+	
+}
+
+.yt-iframe-video {
+	position: absolute;
+	
+	max-width: 100%;
+	max-height: 100%;
+	z-index: -999;
+}
+
+#yt-iframe-player {
+	width: 100% !important;
+	height: auto !important;
+	display: none;
+}
+
+#self-video-player {
+	width: 100% !important;
+	height: 100% !important;
+	display: none;
+}
+
+#vimeo-iframe-player {
+	width: 100% !important;
+	height: 100% !important;
+	display: none;
+}
+
+#yt-nostop-window, #html5-nostop-window {
+	display: none;
+	position: absolute;
+	width: 100% !important;
+	height: 100% !important;
+	z-index: 5;
+}
+
+.yt-thumbnail_dslr {
+	position: absolute;
+	display:flex;
+	background-size: cover !important;
+	overflow:hidden;
+	top:41.5%;
+	left:15%;
+	width:49%;
+	height:41.4%;
+	-webkit-border-radius: 2px;
+	  -moz-border-radius: 2px;
+	  border-radius: 2px;
+	z-index: 9999 !important;
+}
+
+.yt-thumbnail_htchor {
+	position: absolute;
+	display:flex;
+	background-size: cover !important;    
+    overflow:hidden;
+	top:8%;
+	left:10.5%;
+	width:78.9%;
+	height:83.9%;	
+}
+
+.yt-thumbnail_cd {
+	position: absolute;
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:1.68%;
+	left:1.8%;
+	width:96.5%;
+	height:76.4%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_cd2 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:1.5%;
+	left:1.8%;
+	width:96.5%;
+	height:76.5%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_tablethand {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:17.5%;
+	left:24.5%;
+	width:53%;
+	height:41.5%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_screenoval {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:13%;
+	left:8.5%;
+	width:83%;
+	height:65.5%;
+	-webkit-border-radius: 107px;
+	-moz-border-radius: 107px;
+	border-radius: 107px;	
+}
+
+.yt-thumbnail_cd_F {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:1.5%;
+	left:1.8%;
+	width:96.5%;
+	height:77%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_imac {
+	position: absolute;
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:0.5%;
+	left:0.7%;
+	width:98.5%;
+	height:67.5%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+	-webkit-border-top-left-radius: 11px;
+	-webkit-border-top-right-radius: 11px;
+	-moz-border-radius-topleft: 11px;
+	-moz-border-radius-topright: 11px;
+	border-top-left-radius: 11px;
+	border-top-right-radius: 11px;	
+}
+
+.yt-thumbnail_ipadhor {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:4%;
+	left:2.8%;
+	width:87.5%;
+	height:91.8%;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+}
+
+.yt-thumbnail_iphonehor {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:2.5%;
+	left:10.8%;
+	width:76.5%;
+	height:94.4%;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+}
+
+.yt-thumbnail_iwatchg {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:16%;
+	left:27.8%;
+	width:47.5%;
+	height:64.5%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;		
+}
+
+.yt-thumbnail_iwatchs {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:16%;
+	left:27.8%;
+	width:47.5%;
+	height:64.5%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;		
+}
+
+.yt-thumbnail_iwatchw {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:20%;
+	left:26.5%;
+	width:50.5%;
+	height:61.5%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;	
+}
+
+.yt-thumbnail_mba {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:7%;
+	left:13.7%;
+	width:72.85%;
+	height:77.6%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_mbgold {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:10%;
+	left:18.7%;
+	width:65.7%;
+	height:64.9%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_crbws {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_crbs {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:10.5%;
+	left:6.5%;
+	width:87%;
+	height:79.2%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_onlys {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:17.5%;
+	left:10.6%;
+	width:82.1%;
+	height:69.3%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_onlyb {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:11.5%;
+	left:7.1%;
+	width:85.6%;
+	height:77.2%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_empty {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_mbgrey {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:9%;
+	left:18.8%;
+	width:65.6%;
+	height:59.8%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.yt-thumbnail_mbp {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:1%;
+	left:9.8%;
+	width:80.4%;
+	height:86.2%;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.yt-thumbnail_plasma1 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:14%;
+	left:7.6%;
+	width:78.8%;
+	height:63%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_plasma2 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:15%;
+	left:13.5%;
+	width:69.5%;
+	height:59.5%;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+}
+
+.yt-thumbnail_samsungb {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:18.8%;
+	left:12.3%;
+	width:72.9%;
+	height:66.3%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_samsungw {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:20%;
+	left:13.6%;
+	width:71.1%;
+	height:64%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_wood1 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:7%;
+	left:6%;
+	width:88.1%;
+	height:85%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_wood2 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:9.5%;
+	left:6%;
+	width:88.1%;
+	height:81.5%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_wood3 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+    overflow:hidden;
+	top:9.5%;
+	left:6%;
+	width:88.1%;
+	height:81.5%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_borderblue1 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:3.5%;
+	left:1.9%;
+	width:96.5%;
+	height:93.4%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_borderblue2 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:3.5%;
+	left:1.9%;
+	width:96.5%;
+	height:93.4%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+
+}
+
+.yt-thumbnail_borderred1 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:3.5%;
+	left:1.9%;
+	width:96.5%;
+	height:93.4%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.yt-thumbnail_borderred2 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:3.5%;
+	left:1.9%;
+	width:96.5%;
+	height:93.4%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_simpleshadowb {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:93.5%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_simpleshadowbperspectiveright {
+	position: absolute;	
+	display:flex;
+	transform: rotateY(30deg);
+	background-size: cover !important;	
+	overflow:hidden;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:93.5%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	outline: 1px solid transparent;
+}
+
+.yt-thumbnail_simpleshadoww {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:93.5%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_simpleshadowwperspectiveright {
+	position: absolute;	
+	display:flex;
+	transform: rotateY(30deg);
+	background-size: cover !important;	
+	overflow:hidden;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:93.5%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_border1 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:4.1%;
+	left:2.45%;
+	width:94.9%;
+	height:91.35%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+.yt-thumbnail_man-with-monitor-01 {
+	position: absolute;	
+	display:flex;
+	background-size: cover !important;	
+	overflow:hidden;
+	top:33.1%;
+	left:41%;
+	width:44.9%;
+	height:43.35%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+
+/* mailchimp css integration */
+
+
+
+/* end mailchimp integration */
+
+/* youtube preview */
+
+/* css for post & pages in admin */
+
+
+
+
+
+/* end of css for post & pages in admin */

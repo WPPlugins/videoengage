@@ -1,0 +1,39 @@
+/* hide editor & tools becaue of some display problems */
+#wp-videnpro_cta_content-editor-container, #wp-videnpro_cta_content-editor-tools,
+#wp-videnpro_ads_content-editor-container, #wp-videnpro_ads_content-editor-tools {
+	display: none;
+}
+
+#postbox-container-1 {
+	display: none;
+}
+
+#post-body {
+	min-width: 100%;
+	width:100%;
+}
+
+/* display causes line breaks in meta box above title */
+audio {
+	display: none;
+}
+
+.tab-content {
+	display: none;
+}
+
+/* css for tabbed navigation */
+ul#videnpro-menu-tabs.nav.nav-pills {
+	padding: 5px;
+	background-color: #000;
+	margin-bottom: 20px;
+}
+
+ul#videnpro-menu-tabs.nav.nav-pills li a {
+	font-size: 16px;
+	color: #fff;
+}
+
+ul#videnpro-menu-tabs.nav.nav-pills li a:hover {
+	background-color: #337AB7;
+}

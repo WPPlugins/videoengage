@@ -1,0 +1,824 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VideoEngagePro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-07 13:05+0000\n"
+"PO-Revision-Date: 2017-05-07 13:10+0000\n"
+"Last-Translator: pareigis <ralf.pareigis@vertrieb-im-netz.de>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../includes/class-videnpro-meta-box.php:20
+#: ../admin/class-videnpro-admin.php:154
+msgid "Branding"
+msgstr ""
+
+#: ../includes/class-videnpro-meta-box.php:1439
+msgid "Vimeo"
+msgstr ""
+
+#: ../includes/class-videnpro-meta-box.php:1448
+msgid "Vimeo Video ID"
+msgstr ""
+
+#: ../includes/class-videnpro-widget.php:48
+msgid "Text"
+msgstr ""
+
+#: ../includes/class-videnpro-widget.php:55
+msgid "Shortcode:"
+msgstr ""
+
+#: ../includes/class-videnpro-widget.php:59
+msgid "Text:"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ralf Pareigis"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://vertrieb-im-netz.de"
+msgstr ""
+
+#: ../plugin-update-checker/plugin-update-checker.php:811
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:127
+msgctxt "Post Type General Name"
+msgid "Videnpro Brandings"
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:128
+msgctxt "Post Type Singular Name"
+msgid "Videnpro Branding"
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:129
+msgid "Videnpro Brandings"
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:130
+msgid "Videnpro Branding"
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:155
+msgid "Branding Post Type"
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:179
+msgctxt "Post Type General Name"
+msgid "Videnpro Ads"
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:180
+msgctxt "Post Type Singular Name"
+msgid "Videnpro Ad"
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:182 ../admin/class-videnpro-admin.php:206
+msgid "Videnpro Ad"
+msgstr ""
+
+#: ../admin/class-videnpro-admin.php:207
+msgid "Videnpro Ads Post Type"
+msgstr ""
+
+#. Name of the plugin
+msgid "VideoEngagePro"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://videoengagepro.de"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "https://youtu.be/xmCBvsUKY-o"
+msgstr ""
+
+#. Found in description header.
+msgid "Short Demo Video"
+msgstr "Kurzes Demo Video"
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"We have lots of video tutorials that show you exactly all the features of "
+"VideoEngage. But currently, these video tutorials are available in German "
+"language only"
+msgstr ""
+"Es gibt zahlreiche Video Tutorials, die dir alle Funktionen von VideoEngage "
+"detailliert erklären. Derzeit sind diese Videos nur in deutscher Sprache "
+"erhältlich."
+
+#. Found in faq paragraph.
+msgid ""
+"In the free version of VdieoEngage you can only embed one overlay per video. "
+"With VideoEngagePro you can embed up to ten overlays."
+msgstr ""
+"In der freien Version von VideoEngage kann nur ein Overlay pro Video "
+"erstellt werden. Mit VideoEngagePro kannst du pro Video bis zu 10 Overlays "
+"erstellen. Zudem ist mit VideoEngagePro eine zeitverzögerte Einblendung "
+"eines \"div\" möglich."
+
+#. Found in faq paragraph.
+msgid ""
+"Of course you can use VideoEngage with your tablet or mobile phone. However, "
+"the autoplay feature does not work on mobile devices."
+msgstr ""
+"VidenEngage wurde für die Nutzung mobiler Endgeräte optimiert. Es ist also "
+"überhaupt kein Problem Videos und Overlays über dein Smartphone oder Tablet "
+"anzuschauen. Eine Verwendung der Autostart-Funktion ist allerdings bei "
+"mobilen Geräten nicht möglich. "
+
+#. Found in faq paragraph.
+msgid ""
+"Yes, VideoEngage works with almost every WordPress theme. Sometimes it is "
+"necessary to customize your CSS styles to fit your needs."
+msgstr ""
+"Ja, VideoEngage funktioniert mit fast allen WordPress Themes probemlos. "
+"Manchmal kann es notwendig sein, ein paar Anpassungen in deinen CSS Styles "
+"vorzunehmen."
+
+#. Found in faq header.
+msgid ""
+"Are there any tutorials to learn how to embed a video file and to create "
+"video overlays"
+msgstr "Gibt es Tutorials, dir mir beim Einstieg in VideoEngage helfen"
+
+#. Found in faq header.
+msgid "How many overlays can I create"
+msgstr "Wie viele Overlays kann ich erstellen"
+
+#. Found in faq header.
+msgid "Does VideoEngage support mobile phones or tablets"
+msgstr "Unterstützt VideoEngage Smartphones oder Tablets"
+
+#. Found in faq header.
+msgid "Does VideoEngage work with every theme"
+msgstr "Funktioniert VideoEngage mit jedem Theme"
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr "Installation"
+
+#. Found in installation list item, faq list item.
+msgid "Paste the shortcode in your post, page or widget"
+msgstr ""
+"Einfach den Shortcode in deinen Post, in deine Seite oder Widget einfügen"
+
+#. Found in installation list item, faq list item.
+msgid ""
+"Go to \\\"Video Brandings\\\" and easily embed your video and create your "
+"overlay with the built-in editor"
+msgstr ""
+"Gehe in deinem WordPress Backend unter \"Video Brandings\" und binde dein "
+"Video ein und erstelle dein Overlay mit dem integrierten Editor"
+
+#. Found in installation list item, faq list item.
+msgid "Activate the plugin"
+msgstr "Aktiviere das Plugin"
+
+#. Found in installation list item, faq list item.
+msgid ""
+"Upload the plugin to the plugins directory via WordPress Plugin Uploader"
+msgstr "Lade das Plugin einfach über den WordPress Plugin Uploader hoch"
+
+#. Found in description paragraph.
+msgid ""
+"With VideoEngage you can easily embed video files from your media library, "
+"youtube or vimeo. You can choose your mockup, your custom video size and "
+"your play button color and size. The best feature is to overlay your embeded "
+"video with your custom banner ad, your clickable button, your optin form or "
+"with a complete wordpress page or post. To create your overlay you can "
+"simply use the built-in wordpress editor or paste your html code. Define "
+"exactly in seconds where to show your overlay. The embeded video files, "
+"mockups and overlays are fully responsive."
+msgstr ""
+"Mit VideoEngage kannst du ganz einfach Videos aus der Mediathek oder von "
+"YouTube und Vimeo einbinden. Wähle einfach ein passendes Mockup, deine "
+"Videogröße und deine Playbutton Farbe und Größe. Das Highlight von "
+"VideoEngage ist das Erstellen von Video Overlays, z. B. mit deinem eigenen "
+"Banner, einem klickbaren Button, einem kompletten Optin-Formular oder sogar "
+"mit einer kompletten WordPress Seite oder einem Post. Um dein Overlay zu "
+"erstellen, kannst du ganz einfach den integrierten WordPress Editor nutzen "
+"oder einfach beliebigen HTML-Code einfügen. Die Einblendung deines Overlays "
+"kannst du sekundengenau timen und sogar mit einer Audio Datei unterlegen. "
+"Entscheide, ob der Zuseher das Overlay ausblenden kann oder gib eine feste "
+"Einblendzeit vor. Deine Videos, das Mockup und die Overlays sind responsiv."
+
+#. Found in description list item.
+msgid "German"
+msgstr "Deutsch"
+
+#. Found in description list item.
+msgid "English"
+msgstr "Englisch"
+
+#. Found in description header.
+msgid "Currently supported languages"
+msgstr "Folgende Sprachen werden aktuell unterstützt"
+
+#. Short description.
+msgid ""
+"With VideoEngage you can easily embed video files and create video overlays "
+"like banner ads, clickable buttons or optin forms."
+msgstr ""
+"Mit VideoEngage kannst du ganz einfach Videos in WordPress einbinden und "
+"Overlays wie Banner, klickbare Buttons und sogar Optin Forms erstellen."
+
+#. Plugin name.
+msgid "VideoEngage"
+msgstr ""
+
+#: ../includes/class-videnpro-meta-box.php:1817
+#, fuzzy
+msgid "Set some basic Player Settings"
+msgstr "Grundlegende Player Einstellungen"
+
+#: ../includes/class-videnpro-meta-box.php:730
+msgid "Chose your Mockup"
+msgstr "Wähle dein Mockup"
+
+#: ../includes/class-videnpro-meta-box.php:750 ../includes/class-videnpro-meta-
+#: box.php:877 ../includes/class-videnpro-meta-box.php:1011 ../includes/class-
+#: videnpro-meta-box.php:1141
+msgid "Close"
+msgstr "Schließen"
+
+#: ../includes/class-videnpro-meta-box.php:768 ../includes/class-videnpro-meta-
+#: box.php:896 ../includes/class-videnpro-meta-box.php:1030 ../includes/class-
+#: videnpro-meta-box.php:1332 ../includes/class-videnpro-meta-box.php:2454 ..
+#: includes/class-videnpro-meta-box.php:2455
+#: ../includes/class-videnpro-meta-box. php:2459
+#: ../includes/class-videnpro-meta-box.php:2460 ../includes/class-
+#: videnpro-meta-box.php:2464 ../includes/class-videnpro-meta-box.php:2465
+msgid "Video Preview"
+msgstr "Video Vorschau"
+
+#: ../includes/class-videnpro-meta-box.php:771 ../includes/class-videnpro-meta-
+#: box.php:899 ../includes/class-videnpro-meta-box.php:1033
+msgid "Current Time in Seconds: "
+msgstr "abgelaufene Zeit in Sekunden:"
+
+#: ../includes/class-videnpro-meta-box.php:772 ../includes/class-videnpro-meta-
+#: box.php:900 ../includes/class-videnpro-meta-box.php:1034
+msgid " Video Duration: "
+msgstr "Video Laufzeit:"
+
+#: ../includes/class-videnpro-meta-box.php:1253
+msgid "Call to Action Settings"
+msgstr "Call to Action Einstellungen"
+
+#: ../includes/class-videnpro-meta-box.php:1270
+msgid "Dimension"
+msgstr "Maße"
+
+#: ../includes/class-videnpro-meta-box.php:1271
+#: ../includes/class-videnpro-meta- box.php:1800
+#: ../includes/class-videnpro-meta-box.php:2133
+msgid "Width: "
+msgstr "Breite:"
+
+#: ../includes/class-videnpro-meta-box.php:1272
+#: ../includes/class-videnpro-meta- box.php:2137
+msgid "Height: "
+msgstr "Höhe:"
+
+#: ../includes/class-videnpro-meta-box.php:1286
+msgid "Margin"
+msgstr "Ränder"
+
+#: ../includes/class-videnpro-meta-box.php:1287
+msgid "Top: "
+msgstr "Oben:"
+
+#: ../includes/class-videnpro-meta-box.php:1288
+msgid "Left: "
+msgstr "Links:"
+
+#: ../includes/class-videnpro-meta-box.php:1328
+msgid "Player Mockup & Images"
+msgstr "Player Mockup & Bilder"
+
+#: ../includes/class-videnpro-meta-box.php:1329
+msgid "Player Settings"
+msgstr "Player Einstellungen"
+
+#: ../includes/class-videnpro-meta-box.php:1330
+#: ../includes/class-videnpro-meta- box.php:2071
+msgid "Call To Action"
+msgstr "Call To Action"
+
+#: ../includes/class-videnpro-meta-box.php:1331
+msgid "Expert Settings"
+msgstr "Experten Einstellungen"
+
+#: ../includes/class-videnpro-meta-box.php:1341
+#: ../includes/class-videnpro-meta- box.php:1814
+#: ../includes/class-videnpro-meta-box.php:2080 ../includes/class-
+#: videnpro-meta-box.php:2422 ../includes/class-videnpro-meta-box.php:2446 ..
+#: includes/class-videnpro-meta-box.php:2469
+#: ../includes/class-videnpro-ads-meta- box.php:146
+#: ../includes/videnpro-functions.php:201 ../includes/videnpro-
+#: functions.php:203
+msgid "save settings"
+msgstr "Einstellungen speichern"
+
+#: ../includes/class-videnpro-meta-box.php:1342
+msgid "Set the video, the mockup and the thumbnails"
+msgstr "Wähle dein Video, dein Mockup und die Bilder"
+
+#: ../includes/class-videnpro-meta-box.php:1346
+#: ../includes/class-videnpro-meta- box.php:1350
+#: ../includes/class-videnpro-meta-box.php:1354 ../includes/class-
+#: videnpro-widget.php:47 ../includes/videnpro-functions.php:133
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../includes/class-videnpro-meta-box.php:1434
+msgid "Chose Video Source"
+msgstr "Videoquelle wählen"
+
+#: ../includes/class-videnpro-meta-box.php:1437
+msgid "&nbsp;&nbsp;youtube&nbsp;"
+msgstr "YouTube"
+
+#: ../includes/class-videnpro-meta-box.php:1438
+msgid "self-hosted"
+msgstr "selbst gehostet"
+
+#: ../includes/class-videnpro-meta-box.php:1444
+msgid "YouTube Video ID"
+msgstr "YouTube Video ID"
+
+#: ../includes/class-videnpro-meta-box.php:1452
+msgid "self-hosted link"
+msgstr "Link (selbst gehostet)"
+
+#: ../includes/class-videnpro-meta-box.php:1454
+msgid "Chose Video"
+msgstr "Wähle dein Video"
+
+#: ../includes/class-videnpro-meta-box.php:1463
+msgid "Mockup Image"
+msgstr "Mockup"
+
+#: ../includes/class-videnpro-meta-box.php:1465
+msgid "Chose Mockup"
+msgstr "Mockup wählen"
+
+#: ../includes/class-videnpro-meta-box.php:1470
+msgid "Video Start Thumbnail"
+msgstr "Video Startbild"
+
+#: ../includes/class-videnpro-meta-box.php:1472
+#: ../includes/class-videnpro-meta- box.php:1479
+#: ../includes/class-videnpro-meta-box.php:1490
+msgid "Chose Thumbnail"
+msgstr "Bild wählen"
+
+#: ../includes/class-videnpro-meta-box.php:1477
+msgid "Video End Thumbnail"
+msgstr "Video Endbild"
+
+#: ../includes/class-videnpro-meta-box.php:1484
+msgid "Video End Thumbnail Buffer "
+msgstr "Zeitpuffer für Endbild"
+
+#: ../includes/class-videnpro-meta-box.php:1488
+msgid "Video Logo Image"
+msgstr "Video Logo Bild"
+
+#: ../includes/class-videnpro-meta-box.php:1496
+msgid "no logo"
+msgstr "kein Logo"
+
+#: ../includes/class-videnpro-meta-box.php:1497
+msgid "top left"
+msgstr "oben links"
+
+#: ../includes/class-videnpro-meta-box.php:1498
+msgid "top right"
+msgstr "oben rechts"
+
+#: ../includes/class-videnpro-meta-box.php:1499
+msgid "bottom left"
+msgstr "unten links"
+
+#: ../includes/class-videnpro-meta-box.php:1500
+msgid "bottom right"
+msgstr "unten rechts"
+
+#: ../includes/class-videnpro-meta-box.php:1506
+msgid "Video Logo Image Link"
+msgstr "Video Logo Link"
+
+#: ../includes/class-videnpro-meta-box.php:1510
+msgid "Align Video"
+msgstr "Video Position"
+
+#: ../includes/class-videnpro-meta-box.php:1791
+msgid "left"
+msgstr "links"
+
+#: ../includes/class-videnpro-meta-box.php:1792
+msgid "center"
+msgstr "zentriert"
+
+#: ../includes/class-videnpro-meta-box.php:1793
+msgid "right"
+msgstr "rechts"
+
+#: ../includes/class-videnpro-meta-box.php:1798
+msgid "Video Width"
+msgstr "Video Breite"
+
+#: ../includes/class-videnpro-meta-box.php:1804
+msgid "Video Border Size/Color"
+msgstr "Video Rahmen Größe/Farbe"
+
+#: ../includes/class-videnpro-meta-box.php:1809
+msgid "Play Button Size/Color: "
+msgstr "Play Button Größe/Farbe"
+
+#: ../includes/class-videnpro-meta-box.php:2050
+msgid "Show Player Controls"
+msgstr "Zeige Video Steuerelemente"
+
+#: ../includes/class-videnpro-meta-box.php:2055
+msgid "Disable Fullscreen"
+msgstr "Vollbild nicht erlauben"
+
+#: ../includes/class-videnpro-meta-box.php:2057
+msgid "(Not working on mobile devices & in preview mode; no CTA)"
+msgstr ""
+"(funktioniert nicht mit mobilen Endgeräten & in der Vorschau; kein CTA)"
+
+#: ../includes/class-videnpro-meta-box.php:2061
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: ../includes/class-videnpro-meta-box.php:2066
+msgid "Allow Video Stop"
+msgstr "Stoppen des Videos erlauben"
+
+#: ../includes/class-videnpro-meta-box.php:2074
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../includes/class-videnpro-meta-box.php:2083
+msgid "Set the Call-to-Action values"
+msgstr "Wähle die Call-to-Action Parameter"
+
+#: ../includes/class-videnpro-meta-box.php:2090
+msgid "CTA Window Dimensions"
+msgstr "CTA Fenster Maße"
+
+#: ../includes/class-videnpro-meta-box.php:2110
+msgid "Save as Post: "
+msgstr "als Beitrag speichern"
+
+#: ../includes/class-videnpro-meta-box.php:2116
+msgid "Link URL: "
+msgstr "Link URL:"
+
+#: ../includes/class-videnpro-meta-box.php:2122
+msgid "Stop Video"
+msgstr "Video Stoppen"
+
+#: ../includes/class-videnpro-meta-box.php:2128
+msgid "Overflow Vertical"
+msgstr "Srollbalken Verikal"
+
+#: ../includes/class-videnpro-meta-box.php:2141
+msgid "Padding: "
+msgstr "Abstand"
+
+#: ../includes/class-videnpro-meta-box.php:2145
+msgid "Top Margin: "
+msgstr "oberer Rand:"
+
+#: ../includes/class-videnpro-meta-box.php:2149
+msgid "Left Margin: "
+msgstr "linker Rand:"
+
+#: ../includes/class-videnpro-meta-box.php:2153
+msgid "Border: "
+msgstr "Rahmen:"
+
+#: ../includes/class-videnpro-meta-box.php:2158
+msgid "Border Radius: "
+msgstr "Rahmen Radius (Ecken):"
+
+#: ../includes/class-videnpro-meta-box.php:2162
+msgid "Background Opacity/Color: "
+msgstr "Hintergrund Transparenz/Farbe:"
+
+#: ../includes/class-videnpro-meta-box.php:2167
+msgid "Close Button Size/Color: "
+msgstr "Schließen Button Größe/Farbe:"
+
+#: ../includes/class-videnpro-meta-box.php:2170
+msgid "Hide Close Button: "
+msgstr "Schließen Button verstecken"
+
+#: ../includes/class-videnpro-meta-box.php:2175
+msgid "Delay 1: "
+msgstr "Anzeige 1 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2182
+#: ../includes/class-videnpro-meta- box.php:2202
+#: ../includes/class-videnpro-meta-box.php:2217 ../includes/class-
+#: videnpro-meta-box.php:2228 ../includes/class-videnpro-meta-box.php:2239 ..
+#: includes/class-videnpro-meta-box.php:2250
+#: ../includes/class-videnpro-meta-box. php:2261
+#: ../includes/class-videnpro-meta-box.php:2272 ../includes/class-
+#: videnpro-meta-box.php:2283 ../includes/class-videnpro-meta-box.php:2294
+msgid "Chose Sound"
+msgstr "Sound wählen"
+
+#: ../includes/class-videnpro-meta-box.php:2195
+msgid "Delay 2: "
+msgstr "Anzeige 2 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2210
+msgid "Delay 3: "
+msgstr "Anzeige 3 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2221
+msgid "Delay 4: "
+msgstr "Anzeige 4 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2232
+msgid "Delay 5: "
+msgstr "Anzeige 5 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2243
+msgid "Delay 6: "
+msgstr "Anzeige 6 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2254
+msgid "Delay 7: "
+msgstr "Anzeige 7 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2265
+msgid "Delay 8: "
+msgstr "Anzeige 8 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2276
+msgid "Delay 9: "
+msgstr "Anzeige 9 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2287
+msgid "Delay 10: "
+msgstr "Anzeige 10 (nach Sekunden):"
+
+#: ../includes/class-videnpro-meta-box.php:2298
+msgid "Content with Delay 10 (ID/Class): "
+msgstr "verzögerter Inhalt mit Anzeige 10 (ID/Class):"
+
+#: ../includes/class-videnpro-meta-box.php:2302
+msgid "Intro Effect(Duration/Effect): "
+msgstr "Intro Effekt (Dauer/Effekt):"
+
+#: ../includes/class-videnpro-meta-box.php:2307
+#: ../includes/class-videnpro-meta- box.php:2317
+msgid "none"
+msgstr "keiner"
+
+#: ../includes/class-videnpro-meta-box.php:2308
+#: ../includes/class-videnpro-meta- box.php:2318
+msgid "fade"
+msgstr "Fade"
+
+#: ../includes/class-videnpro-meta-box.php:2309
+#: ../includes/class-videnpro-meta- box.php:2319
+msgid "bounce"
+msgstr "Springen"
+
+#: ../includes/class-videnpro-meta-box.php:2310
+#: ../includes/class-videnpro-meta- box.php:2320
+msgid "fold"
+msgstr "Falten"
+
+#: ../includes/class-videnpro-meta-box.php:2311
+#: ../includes/class-videnpro-meta- box.php:2321
+msgid "clip"
+msgstr "Clip"
+
+#: ../includes/class-videnpro-meta-box.php:2312
+msgid "slide"
+msgstr "Slide"
+
+#: ../includes/class-videnpro-meta-box.php:2322
+msgid "slide left"
+msgstr "Slide von links"
+
+#: ../includes/class-videnpro-meta-box.php:2323
+msgid "slide right"
+msgstr "Slide von rechts"
+
+#: ../includes/class-videnpro-meta-box.php:2324
+msgid "slide up"
+msgstr "Slide von oben"
+
+#: ../includes/class-videnpro-meta-box.php:2325
+msgid "slide down"
+msgstr "Slide von unten"
+
+#: ../includes/class-videnpro-meta-box.php:2326
+msgid "pulsate"
+msgstr "Pulsieren"
+
+#: ../includes/class-videnpro-meta-box.php:2327
+msgid "puff"
+msgstr "Puff"
+
+#: ../includes/class-videnpro-meta-box.php:2328
+msgid "shake"
+msgstr "Shake"
+
+#: ../includes/class-videnpro-meta-box.php:2338
+msgid "Editor: "
+msgstr "Editor:"
+
+#: ../includes/class-videnpro-meta-box.php:2343 ../includes/class-videnpro-ads-
+#: meta-box.php:133
+msgid "HTML Content "
+msgstr "HTML Inhalt"
+
+#: ../includes/class-videnpro-meta-box.php:2347
+msgid "CTA Content "
+msgstr "CTA Inhalt"
+
+#: ../includes/class-videnpro-meta-box.php:2426
+msgid "Set some hidden values [only for experts & not to preview]"
+msgstr ""
+"Versteckte Einstellungen [nur für Profis zu empfehlen & nicht in Preview zu "
+"sehen]"
+
+#: ../includes/class-videnpro-meta-box.php:2430
+msgid "Trim Video Width in %"
+msgstr "Videobreite in % anpassen"
+
+#: ../includes/class-videnpro-meta-box.php:2434
+msgid "Trim Video Height in %"
+msgstr "Videohöhe in % anpassen"
+
+#: ../includes/class-videnpro-meta-box.php:2438
+msgid "Trim Video Left in %"
+msgstr "Video Abstand links in % anpassen"
+
+#: ../includes/class-videnpro-meta-box.php:2442
+msgid "Trim Video Top in %"
+msgstr "Video Abstand oben in % anpassen"
+
+#: ../includes/class-videnpro-meta-box.php:2450
+msgid "Click the Button below to preview your Video"
+msgstr "Klicke den Button, um eine Vorschau deines Videos zu sehen"
+
+#: ../includes/class-videnpro-ads-meta-box.php:56
+#: ../admin/class-videnpro-admin. php:181
+msgid "Videnpro Ads"
+msgstr "Videnpro Werbungen"
+
+#: ../includes/class-videnpro-widget.php:46
+msgid "New title"
+msgstr "Neuer Titel"
+
+#: ../includes/class-videnpro-widget.php:51
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../includes/videnpro-functions.php:134
+#: ../includes/videnpro-functions.php:180
+msgid "ID"
+msgstr "ID"
+
+#: ../plugin-update-checker/github-checker.php:119
+msgid "There is no changelog available."
+msgstr "keine Änderungen vorhanden"
+
+#: ../plugin-update-checker/plugin-update-checker.php:763
+msgid "Check for updates"
+msgstr "Nach Updates suchen"
+
+#: ../plugin-update-checker/plugin-update-checker.php:807
+msgid "This plugin is up to date."
+msgstr "Das Plugin ist auf dem aktuellen Stand"
+
+#: ../plugin-update-checker/plugin-update-checker.php:809
+msgid "A new version of this plugin is available."
+msgstr "Eine neue Version des Plugins ist verfügbar"
+
+#: ../admin/class-videnpro-admin.php:131 ../admin/class-videnpro-admin.php:183
+msgid "Item Archives"
+msgstr "Archiv"
+
+#: ../admin/class-videnpro-admin.php:132 ../admin/class-videnpro-admin.php:184
+msgid "Parent Item:"
+msgstr "übergeordneter Beitrag"
+
+#: ../admin/class-videnpro-admin.php:133 ../admin/class-videnpro-admin.php:185
+msgid "All Items"
+msgstr "Alle Beiträge"
+
+#: ../admin/class-videnpro-admin.php:134 ../admin/class-videnpro-admin.php:186
+msgid "Add New Item"
+msgstr "Neu hinzufügen"
+
+#: ../admin/class-videnpro-admin.php:135 ../admin/class-videnpro-admin.php:187
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: ../admin/class-videnpro-admin.php:136 ../admin/class-videnpro-admin.php:188
+msgid "New Item"
+msgstr "Neu"
+
+#: ../admin/class-videnpro-admin.php:137 ../admin/class-videnpro-admin.php:189
+msgid "Edit Item"
+msgstr "Bearbeiten"
+
+#: ../admin/class-videnpro-admin.php:138 ../admin/class-videnpro-admin.php:190
+msgid "Update Item"
+msgstr "Aktualisieren"
+
+#: ../admin/class-videnpro-admin.php:139 ../admin/class-videnpro-admin.php:191
+msgid "View Item"
+msgstr "Ansehen"
+
+#: ../admin/class-videnpro-admin.php:140 ../admin/class-videnpro-admin.php:192
+msgid "Search Item"
+msgstr "Suchen"
+
+#: ../admin/class-videnpro-admin.php:141 ../admin/class-videnpro-admin.php:193
+msgid "Not found"
+msgstr "Nichts gefunden"
+
+#: ../admin/class-videnpro-admin.php:142 ../admin/class-videnpro-admin.php:194
+msgid "Not found in Trash"
+msgstr "Nicht im Papierkorb"
+
+#: ../admin/class-videnpro-admin.php:143 ../admin/class-videnpro-admin.php:195
+msgid "Featured Image"
+msgstr "bevorzugtes Bild"
+
+#: ../admin/class-videnpro-admin.php:144 ../admin/class-videnpro-admin.php:196
+msgid "Set featured image"
+msgstr "bevorzugtes Bild wählen"
+
+#: ../admin/class-videnpro-admin.php:145 ../admin/class-videnpro-admin.php:197
+msgid "Remove featured image"
+msgstr "bevorzugtes Bild entfernen"
+
+#: ../admin/class-videnpro-admin.php:146 ../admin/class-videnpro-admin.php:198
+msgid "Use as featured image"
+msgstr "als bevorzugtes Bild verwenden"
+
+#: ../admin/class-videnpro-admin.php:147 ../admin/class-videnpro-admin.php:199
+msgid "Insert into item"
+msgstr "einfügen"
+
+#: ../admin/class-videnpro-admin.php:148 ../admin/class-videnpro-admin.php:200
+msgid "Uploaded to this item"
+msgstr "Hochladen"
+
+#: ../admin/class-videnpro-admin.php:149 ../admin/class-videnpro-admin.php:201
+msgid "Items list"
+msgstr "Übersicht"
+
+#: ../admin/class-videnpro-admin.php:150 ../admin/class-videnpro-admin.php:202
+msgid "Items list navigation"
+msgstr "Navigation"
+
+#: ../admin/class-videnpro-admin.php:151 ../admin/class-videnpro-admin.php:203
+msgid "Filter items list"
+msgstr "Übersicht filtern"
+
+#: ../includes/class-videnpro-meta-box.php:1457
+msgid "Secure Video"
+msgstr "Video schützen"
+
+#: ../includes/class-videnpro-meta-box.php:1459
+msgid "Redirect Link "
+msgstr "Weiterleitung"
